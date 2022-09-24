@@ -1,0 +1,43 @@
+*{
+margin: 0;
+}
+body{
+    background-image:url("swag.jpg");
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    background-color: goldenrod;
+    padding: 10px 15px;
+}
+.btt1,
+.btt2,
+.btt3{
+    padding: 15px 20px;
+    font-size: 15px;
+    background-color: rgba(130, 8, 8, 0.848);
+    border-radius:10px ;
+    margin-left:20px ;
+    font-weight: bold;
+    color: white;
+    transition: background 0.5s;
+    
+}
+.btt1:hover{
+    background-color:rgb(229, 53, 53); ;
+}
+.btt2:hover{
+    background-color: rgb(229, 53, 53);;
+}
+
+.btt3:hover{
+background-color: rgb(229, 53, 53);
+}
+.btt1{
+    margin-left: 0;
+}

@@ -1,0 +1,229 @@
+*{
+    margin:0;
+}
+section {
+    padding:10px;
+    margin: 10px;
+    border:2px solid black;
+
+}
+#first{
+    margin: 20px;
+   text-align: center;
+   background-color: tomato;
+   color: aliceblue;
+
+}
+.shop{
+    cursor: pointer;
+    transition: background 1s;
+}
+.shop:hover{
+    background-color: black;
+}
+
+.swag{
+        text-align: center;
+        font-weight: 200px;
+        color:rgb(212, 4, 4);
+    }
+    .home-button{
+        border-radius: 10px;
+        border-width: 2px;
+        background-color: rgb(180, 4, 4);
+        color: white;
+        padding: 10px 15px;
+        font-size: 17px;
+        margin-left:8px ;
+        margin-right: 20px;
+        cursor: pointer;
+        border-width: 1px;
+        transition: opacity 1s;
+
+    }
+    .click-button{
+        margin-left:10px;
+        margin-right: 20px;
+      padding: 10px 15px;
+        border-radius: 10px;
+        background-color: rgb(244, 229, 16);
+        color: black;
+        font-size: 17px;
+        cursor: pointer;
+        border-width: 1px;
+        transition: background 1s;
+
+    }
+    .order{
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 10px;
+       padding-right: 10px;
+        background-color: yellow;
+        color: black;
+        border-radius: 10px;
+        margin-right:10px ;
+        margin: 10px;  
+        cursor: pointer;
+        font: bold;
+        font-size: medium;
+        transition: background 1s;
+        margin-right: 20px;
+        margin-left: 30px;
+
+    
+
+    }
+    .search-box{
+        font-size: 20px;
+    }
+    .order:hover{
+        background-color: green;
+        
+    }
+    .order:active{
+        background-color: aqua;
+    }
+    .home-button:hover{
+        opacity: 0.6;
+    }
+    .home-button:active{
+        opacity:1;
+    }
+    .click-button:hover{
+        background-color: green;
+    }
+    .click-button:active{
+        background-color: aqua;
+    }
+    h1{
+        font-size: 50px;
+        position: relative;
+
+    }
+    .track{
+        border-radius: 10px;
+        padding-top: 15px;
+       padding-bottom: 15px;
+       padding-left: 10px;
+       padding-right: 10px;
+        border: 10px;
+        margin-right: 30px;
+        color: white;
+        background-color: rgb(53, 53, 232);
+        transition: opacity 0.15s;
+
+
+
+    }
+    .track:hover{
+        opacity: 0.7;
+
+    }
+    .track:active{
+        opacity: 0.8;
+    }
+    .contact{
+        border-radius: 10px;
+        padding-top: 15px;
+       padding-bottom: 15px;
+       padding-left: 10px;
+       padding-right: 10px;
+        border: 10px;
+        margin-right: 10px;
+        color: white;
+        background-color: rgb(53, 53, 232);
+        transition: background 1s;
+        
+    }
+    .contact:hover{
+        background-color: rgb(133, 243, 6);
+        color:black ;
+    }
+    .page-starter{
+        font-family: arial;
+        font-weight: bold ;
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+        background-color: tomato;
+        color:black;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+.note{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+}
+#second{
+    padding: 10px 15px;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: rgb(53, 53, 232);
+    color: aliceblue;
+}
+.lists{
+    margin: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgb(235, 221, 235);
+    transition: opacity 0.15s;
+
+}
+.lists:hover{
+    opacity: 0.8px;
+    
+}
+li{
+    transition: opacity 0.5s;
+}
+li:hover{
+    opacity: 0.8px;
+    text-decoration:underline ;
+   }
+  
+ 
+  .products {
+    border:none;
+  }
+  .products div{
+    display: inline-block;
+    margin-left: 150px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    background:#ffff;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+    
+  }
+  .products .trouser{
+    width:200px;
+    height:250px;
+  }
+  .products div:hover{
+    text-decoration: underline;
+  }
+ .second{
+    background-color:rgb(247, 249,  251);
+ }
+ .header{
+    text-align: center;
+    background-color: rgb(242, 64, 64);
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ 
+ 
+.sec-two{
+   margin-left: 0;
+    border-width: 0;
+}

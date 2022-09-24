@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+    background-color: tomato;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+.fist{
+    text-align: center;
+    background-color: blue;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px ;
+    color: aliceblue;
+}
+.button{
+    border-radius: 10px;
+    font-size: 20px ;
+    text-align: left;
+    padding: 10px 15px;
+    background-color: goldenrod;
+    transition: background 1s;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: azure;
+}
+.button:active{
+    background-color: azure;
+}
+.sec2{
+    padding: 10px 15px;
+    border: 2px solid;
+    width: fit-content;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+    
+
+
+.pr{
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+
+}
+.span{
+    font-size: 16px;
+    color: red;
+    text-align: top;
+    text-decoration: underline ;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: 0px;
+}
+img{
+    width: 68px;
+    align-self: right;
+    padding:  10px 0px;
+}
+strong{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    font-size: 20px;
+}
+span{
+margin-left: 200px;
+font-size: 20px;
+}
+.head{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+.itm2des
+{
+    margin-left: 110px;
+}
+price{
+    text-align: right;
+    margin-left: 200px;
+
+}
+
+ 
